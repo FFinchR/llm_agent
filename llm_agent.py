@@ -33,7 +33,7 @@ class LLMAgent:
             self.driver.find_element(By.XPATH, "//div[3]/div/button").click()
         except NoSuchElementException:  # 捕捉 NoSuchElementException 异常
             print("元素不存在")
-        # 4 | sendKeys | xpath=//div[3]/div/div/textarea | mysql的所有表接入
+        # 4 | sendKeys | xpath=//div[3]/div/div/textarea | ask anything
         self.driver.find_element(By.XPATH, "//div[3]/div/div/textarea").send_keys(question)
         # 5 | click | xpath=//div/div[2]/div/button |
         self.driver.find_element(By.XPATH, "//div/div[2]/div/button").click()
