@@ -23,7 +23,7 @@ class LLMAgent:
 
     def ask(self, question):
         # self.driver.minimize_window()
-        # self.driver.get("https://www.coze.com/space/7322348804131536904/bot/7329338760456470529")
+        # self.driver.get("https://www.coze.com/space/x/bot/x")
         # 2 | setWindowSize | 1936x1048 |
         # self.driver.set_window_size(1936, 1048)
         # 3 | click | xpath=//div[3]/div/button |
