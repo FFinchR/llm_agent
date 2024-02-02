@@ -18,12 +18,12 @@ class LLMAgent:
         options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
         self.driver = webdriver.Chrome(options=options)
         self.driver.minimize_window()
-        self.driver.get("https://www.coze.com/space/x/bot/x")
+        self.driver.get("https://www.xxx.com/xxx")
 
 
     def ask(self, question):
         # self.driver.minimize_window()
-        # self.driver.get("https://www.coze.com/space/x/bot/x")
+        # self.driver.get("https://www.xxx.com/xxx")
         # 2 | setWindowSize | 1936x1048 |
         # self.driver.set_window_size(1936, 1048)
         # 3 | click | xpath=//div[3]/div/button |
